@@ -1,0 +1,15 @@
+D:\个人\Study\BoilerEventAppl\bin\Debug\net6.0\BoilerEventAppl.exe
+D:\个人\Study\BoilerEventAppl\bin\Debug\net6.0\BoilerEventAppl.deps.json
+D:\个人\Study\BoilerEventAppl\bin\Debug\net6.0\BoilerEventAppl.runtimeconfig.json
+D:\个人\Study\BoilerEventAppl\bin\Debug\net6.0\BoilerEventAppl.dll
+D:\个人\Study\BoilerEventAppl\bin\Debug\net6.0\BoilerEventAppl.pdb
+D:\个人\Study\BoilerEventAppl\obj\Debug\net6.0\BoilerEventAppl.csproj.AssemblyReference.cache
+D:\个人\Study\BoilerEventAppl\obj\Debug\net6.0\BoilerEventAppl.GeneratedMSBuildEditorConfig.editorconfig
+D:\个人\Study\BoilerEventAppl\obj\Debug\net6.0\BoilerEventAppl.AssemblyInfoInputs.cache
+D:\个人\Study\BoilerEventAppl\obj\Debug\net6.0\BoilerEventAppl.AssemblyInfo.cs
+D:\个人\Study\BoilerEventAppl\obj\Debug\net6.0\BoilerEventAppl.csproj.CoreCompileInputs.cache
+D:\个人\Study\BoilerEventAppl\obj\Debug\net6.0\BoilerEventAppl.dll
+D:\个人\Study\BoilerEventAppl\obj\Debug\net6.0\refint\BoilerEventAppl.dll
+D:\个人\Study\BoilerEventAppl\obj\Debug\net6.0\BoilerEventAppl.pdb
+D:\个人\Study\BoilerEventAppl\obj\Debug\net6.0\BoilerEventAppl.genruntimeconfig.cache
+D:\个人\Study\BoilerEventAppl\obj\Debug\net6.0\ref\BoilerEventAppl.dll
