@@ -1,0 +1,54 @@
+using System;
+namespace SimpleEvent
+{
+    using system;
+    //发布器类
+    public class EventTest{
+        //字段
+        private int value;
+        //委托
+        public delegate void NumManipulationHandler();
+        //事件
+        public event NumManipulationHandler ChangeNum;
+        //一个方法
+        protected virtual void OnNimChanged(){
+            if(ChangeNum!=null){
+                ChangeNum();//事件被触发
+            }else{
+                Console.WriteLine("event not fire");
+                Console.ReadKey();
+            }
+        }
+        //构造函数
+        public EventTest(int n){
+            if(value!=n){
+                value=n;
+                OnNimChanged();
+            }
+        }
+        public void SetValue( int n )
+         {
+            if ( value != n )
+            {
+             value = n;
+            OnNumChanged();
+            }
+         }
+    }
+    //订阅类
+    public class subscribEvent{
+        public void printf(){
+            Console.WriteLine("event fire");
+            Console.ReadKey();
+        }
+    }
+    public class MainClass{
+        public static void Main(){
+            EventTest e = new EventTest();//实例化对象，第一次没有触发事件
+            subscribEvent v =new subscribEvent();//实例化对象
+            e.ChangeNum+=new EventTest.NumManipulationHandler(v.printf);//注册
+            e.SetValue(7);
+            e.SetValue(11);
+        }
+    }
+}
